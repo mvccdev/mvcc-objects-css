@@ -1,0 +1,12 @@
+/* TEAM */
+
+	Developer: Eric Harms
+	Contact: harmse [at] morainevalley.edu
+
+/* SITE */
+
+	Language: English
+	Doctype:
+	Standards:
+	Components:
+	IDE: Atom
