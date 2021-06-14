@@ -1,0 +1,126 @@
+/* ==========================================================================
+   #objects.link-list
+   ========================================================================== */
+
+/**
+ * The link-list object is used to build out a list of links.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-link-list">
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ * </nav>
+ */
+
+.mvcc-link-list {
+	margin-bottom: var(--mvcc-spacing-medium)
+}
+
+.mvcc-link-list__item {
+	display: block;
+}
+
+/*
+   --xs
+   ========================================================================== */
+
+/**
+ * Applies an extra-small padding.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-link-list mvcc-link-list--spacing-extra-small">
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ * </nav>
+ */
+
+.mvcc-link-list--spacing-extra-small > .mvcc-link-list__item {
+	padding: .375rem;
+}
+
+/*
+  --2-column
+  ========================================================================== */
+
+/**
+ * Applies a two-column layout
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-link-list mvcc-link-list--layout-2-column">
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ * </nav>
+ */
+@media (min-width: 48em) {
+	.mvcc-link-list--layout-2-column {
+		column-count: 2;
+	}
+}
+
+/*
+  --3-column
+  ========================================================================== */
+
+/**
+ * Applies a three-column layout.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-link-list mvcc-link-list--layout-2-column">
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ * </nav>
+ */
+@media (min-width: 48em) {
+	.mvcc-link-list--layout-3-column {
+		column-count: 3;
+	}
+}
+
+/*
+  --4-column
+  ========================================================================== */
+
+/**
+ * Applies a four-column layout.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-link-list mvcc-link-list--layout-4-column">
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ * </nav>
+ */
+@media (min-width: 48em) {
+	.mvcc-link-list--layout-4-column {
+		column-count: 4;
+	}
+}
+
+/*
+   --vertical
+   ========================================================================== */
+
+/**
+ * The link-list object is used to build out a list of links.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-link-list">
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ *     <a class="mvcc-link-list__item"></a>
+ * </nav>
+ */
+
+.mvcc-link-list__item {
+	display: block;
+}

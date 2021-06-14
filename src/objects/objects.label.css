@@ -1,0 +1,24 @@
+/* ==========================================================================
+   #objects.link
+   ========================================================================== */
+
+/**
+ * The label object is used to create a text label.
+ *
+ * Usage:
+ *
+ * <span class="mvcc-label">
+ * </span>
+ */
+
+
+.mvcc-label {
+	display: inline-block;
+	padding-left: var(--mvcc-spacing-small);
+	padding-right: var(--mvcc-spacing-small);
+	height: var(--mvcc-label-height);
+	line-height: var(--mvcc-label-height);
+	min-width: 50px;
+	font-size: 85%;
+	text-align: center;
+}

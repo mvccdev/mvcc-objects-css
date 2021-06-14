@@ -1,0 +1,68 @@
+/* ==========================================================================
+   #objects.table
+   ========================================================================== */
+
+/*
+   --border-cells
+   ========================================================================== */
+
+/**
+ * Applies a thin border around table cells.
+*
+* Usage:
+*
+* <table class="mvcc-table mvcc-table--border-cells">
+*     <thead>
+*         <tr>
+*             <th></th>
+*             <th></th>
+*             <th></th>
+*         </tr>
+*     </thead>
+*     <tbody>
+*         <tr>
+*             <td></td>
+*             <td></td>
+*             <td></td>
+*         </tr>
+*     </tbody>
+* </table>
+*/
+.mvcc-table--border-cells th,
+.mvcc-table--border-cells td {
+	border-width: var(--mvcc-table-border-width);
+	border-style: var(--mvcc-table-border-style);
+	border-color: var(--mvcc-table-border-color);
+}
+
+/*
+   --border-rows
+   ========================================================================== */
+
+/**
+ * Applies a thin border between table rows.
+ *
+ * Usage:
+ *
+ * <table class="mvcc-table mvcc-table--border-rows">
+ *     <thead>
+ *         <tr>
+ *             <th></th>
+ *             <th></th>
+ *             <th></th>
+ *         </tr>
+ *     </thead>
+ *     <tbody>
+ *         <tr>
+ *             <td></td>
+ *             <td></td>
+ *             <td></td>
+ *         </tr>
+ *     </tbody>
+ * </table>
+ */
+.mvcc-table--border-rows td {
+	border-top-width: var(--mvcc-table-border-width);
+	border-top-style: var(--mvcc-table-border-style);
+	border-top-color: var(--mvcc-table-border-color);
+}

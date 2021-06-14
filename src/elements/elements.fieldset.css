@@ -1,0 +1,16 @@
+/* ==========================================================================
+   #elements.fieldset
+   ========================================================================== */
+
+/**
+ * Help signal-to-noise ratio by remove the border and using spacing to chunk
+ * form items.
+ */
+
+fieldset {
+	border: 0;
+}
+
+fieldset .mvcc-form__item {
+	margin-left: var(--mvcc-spacing-medium);
+}

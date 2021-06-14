@@ -1,0 +1,13 @@
+/* ==========================================================================
+   #elements.address
+   ========================================================================== */
+
+/**
+ * By default, we don't italicize addresses.
+ *
+ * @link https://uxmovement.com/content/6-surprising-bad-practices-that-hurt-dyslexic-users/
+ */
+
+address {
+	font-style: normal;
+}

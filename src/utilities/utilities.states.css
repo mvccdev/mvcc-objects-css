@@ -1,0 +1,20 @@
+/* ==========================================================================
+   #utilities.states
+   ========================================================================== */
+
+/*
+   -is-focusable
+   ========================================================================== */
+
+/**
+ * Applies a thin border around events that receive focus.
+ *
+ * Example:
+ *
+ * <div class="mvcc--is-focusable"></div>
+ */	
+.mvcc--is-focusable:focus {
+	outline-width: var(--mvcc-focus-outline-width);
+	outline-style: var(--mvcc-focus-outline-style);
+	outline-color: var(--mvcc-focus-outline-color);
+}

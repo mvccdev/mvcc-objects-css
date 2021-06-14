@@ -1,0 +1,35 @@
+/* ==========================================================================
+   #objects.appbar
+   ========================================================================== */
+
+/**
+ * The appbar object is used to create an appbar or toolbar.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-appbar">
+ * </div>
+ */
+
+.mvcc-appbar {
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*
+   --spacing-medium
+   ========================================================================== */
+
+/**
+* Applies a medium spacing to the left and right of the appbar.
+*
+* Usage:
+*
+* <div class="mvcc-appbar mvcc-appbar--spacing-medium">
+* </div>
+*/
+.mvcc-appbar--spacing-medium {
+	padding-left: var(--mvcc-spacing-medium);
+	padding-right: var(--mvcc-spacing-medium);
+}

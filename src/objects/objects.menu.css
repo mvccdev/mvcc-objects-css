@@ -1,0 +1,87 @@
+/* ==========================================================================
+   #objects.menu
+   ========================================================================== */
+
+/**
+ * The menu object is used to create horizontal or vertical menus.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-menu">
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ * </nav>
+ */
+
+.mvcc-menu {
+	display: flex;
+}
+
+.mvcc-menu__item {
+	color: inherit;
+	text-decoration: none;
+}
+
+.mvcc-menu__item:hover {
+	text-decoration: underline;
+}
+
+/*
+   __icon
+   ========================================================================== */
+
+/**
+ * An optional element that specifies a link's icon.
+ *
+ * Usage:
+ *
+ * <a class="mvcc-link" href="#">
+ *     <img class="mvcc-link__icon">
+ * </a>
+ */
+
+.mvcc-menu__icon {
+	padding-right: var(--mvcc-spacing-extra-small);
+	vertical-align: middle;
+}
+
+/*
+   --inline
+   ========================================================================== */
+
+/**
+ * Used to create simple inline menus.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-menu mvcc-menu--layout-inline">
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ * </nav>
+ */
+
+.mvcc-menu--layout-inline > .mvcc-menu__item {
+	margin-right: var(--mvcc-spacing-medium);
+}
+
+/*
+   --inline
+   ========================================================================== */
+
+/**
+ * Used to create simple inline menus.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-menu mvcc-menu--layout-block">
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ * </nav>
+ */
+
+.mvcc-menu--layout-block {
+	flex-direction: column;
+}

@@ -1,0 +1,10 @@
+/* ==========================================================================
+   #hr
+   ========================================================================== */
+
+hr {
+    border: 0;
+    border-bottom-width: var(--mvcc-hr-border-width);
+    border-bottom-style: var(--mvcc-hr-border-style);
+    border-bottom-color: var(--mvcc-hr-border-color);
+}

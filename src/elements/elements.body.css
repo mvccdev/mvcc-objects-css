@@ -1,0 +1,12 @@
+/* ==========================================================================
+   #elements.body
+   ========================================================================== */
+
+body {
+    font-family: var(--mvcc-body-font-family);
+    line-height: var(--mvcc-body-line-height);
+    overflow-y: scroll;
+    min-height: 100%;
+    color: var(--mvcc-body-color);
+    background-color: var(--mvcc-body-background-color);
+}

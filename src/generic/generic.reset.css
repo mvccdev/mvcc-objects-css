@@ -1,0 +1,33 @@
+/* ==========================================================================
+   #generic.reset
+   ========================================================================== */
+
+/**
+ * Reset the margins and padding of common block elements.
+ */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+hr,
+blockquote,
+figure,
+fieldset,
+legend,
+form,
+table,
+th,
+td,
+caption
+{
+	margin: 0;
+	padding: 0;
+}

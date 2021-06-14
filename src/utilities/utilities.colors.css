@@ -1,0 +1,151 @@
+/* ==========================================================================
+   #utilities.colors
+   ========================================================================== */
+
+/*
+   -color-primary
+   ========================================================================== */
+
+/**
+ * Applies the primary color to an element.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-primary"></div>
+ */
+.mvcc--color-primary {
+    color: var(--mvcc-primary-color);
+    background-color: var(--mvcc-primary-background-color);
+}
+
+
+/*
+   --color-secondary
+   ========================================================================== */
+
+/**
+ * Applies the secondary color to an element.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-secondary"></div>
+ */
+.mvcc--color-secondary {
+    color: var(--mvcc-secondary-color);
+    background-color: var(--mvcc-secondary-background-color);
+}
+
+/*
+   --color-tertiary
+   ========================================================================== */
+
+/**
+ * Applies the tertiary color to an element.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-tertiary"></div>
+ */
+.mvcc--color-tertiary {
+    color: var(--mvcc-tertiary-color);
+    background-color: var(--mvcc-tertiary-background-color);
+}
+
+/*
+   --color-accent
+   ========================================================================== */
+
+/**
+ * Applies the accent color to an element.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-accent"></div>
+ */
+.mvcc--color-accent {
+    color: var(--mvcc-accent-color);
+    background-color: var(--mvcc-accent-background-color);
+}
+
+/*
+   --color-reverse
+   ========================================================================== */
+
+/**
+ * Applies the reverse color to an element.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-reverse"></div>
+ */
+.mvcc--color-reverse {
+    color: var(--mvcc-body-background-color);
+    background-color: var(--mvcc-body-color);
+}
+
+/*****************************/
+
+
+/*
+   --color-warning
+   ========================================================================== */
+
+/**
+ * Applies the warning color to an element.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-warning"></div>
+ */
+ .mvcc--color-warning {
+   color: var(--mvcc-warning-color);
+   background-color: var(--mvcc-warning-background-color);
+}
+
+/*
+   --color-danger
+   ========================================================================== */
+
+/**
+ * Applies the danger color to an element.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-danger"></div>
+ */
+ .mvcc--color-danger {
+   color: var(--mvcc-danger-color);
+   background-color: var(--mvcc-danger-background-color);
+}
+
+/*
+   --color-info
+   ========================================================================== */
+
+/**
+ * Applies the info color to an element.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-info"></div>
+ */
+ .mvcc--color-info {
+   color: var(--mvcc-info-color);
+   background-color: var(--mvcc-info-background-color);
+}
+ 
+/*
+   --color-success
+   ========================================================================== */
+
+/**
+ * Applies the success color to an element.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-success"></div>
+ */
+ .mvcc--color-success {
+   color: var(--mvcc-success-color);
+   background-color: var(--mvcc-success-background-color);
+}

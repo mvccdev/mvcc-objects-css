@@ -1,0 +1,119 @@
+/* ==========================================================================
+   #settings.defaults
+   ========================================================================== */
+
+:root {
+
+/*
+   generic
+   ========================================================================== */
+
+	/* spacing */
+
+	--mvcc-spacing-extra-small: .375rem;
+	--mvcc-spacing-small: .75rem;
+	--mvcc-spacing-medium: 1.5rem;
+	--mvcc-spacing-large: 3rem;
+	--mvcc-spacing-extra-large: 6rem;
+
+	/* :focus */
+
+	--mvcc-focus-outline-width: 2px;
+	--mvcc-focus-outline-style: solid;
+	--mvcc-focus-outline-color: #003859;
+
+/*
+   elements
+   ========================================================================== */
+
+	/* body */
+
+	--mvcc-body-font-family: sans-serif;
+	--mvcc-body-font-size: 16px;
+	--mvcc-body-color: #222;
+	--mvcc-body-background-color: #fff;
+	--mvcc-body-line-height: 1.5;
+
+	/* headings */
+
+	--mvcc-heading-font-family: serif;
+	--mvcc-h1-font-size: 2.488em;
+	--mvcc-h2-font-size: 2.074em;
+	--mvcc-h3-font-size: 1.728em;
+	--mvcc-h4-font-size: 1.44em;
+	--mvcc-h5-font-size: 1.2em;
+	--mvcc-h6-font-size: 1em;
+
+	/* horizontal rulers */
+
+	--mvcc-hr-border-width: 1px;
+	--mvcc-hr-border-style: solid;
+	--mvcc-hr-border-color: #ccc;
+
+	/* small */
+
+	--mvcc-small-font-size: 16px;
+
+	/* link */
+
+	--mvcc-link-color: #00108e;
+
+/*
+   objects
+   ========================================================================== */
+
+	
+	/* table */
+
+	--mvcc-table-border-width: 1px;
+	--mvcc-table-border-style: solid;
+	--mvcc-table-border-color: #ccc;
+
+	/* form */
+
+	--mvcc-form-input-width: 300px;
+	--mvcc-form-input-border-width: 1px;
+	--mvcc-form-input-border-color: #ccc;
+
+	/* button */
+
+	--mvcc-button-raised-box-shadow-color: rgba(0,0,0,0.4);
+	--mvcc-button-raised-color: #fff;
+	--mvcc-button-raised-background-color: #005D95;
+	--mvcc-button-raised-active-background-color: #000;
+	--mvcc-button-outline-border-width: 2px;
+	--mvcc-button-outline-border-color: #000;
+	--mvcc-button-outline-border-radius: 3px;
+	--mvcc-button-outline-active-color: #fff;
+	--mvcc-button-outline-active-background-color: #000;
+	--mvcc-button-action-color: #00108e;
+	--mvcc-button-action-hover-color: #000;
+	--mvcc-button-action-hover-background-color: #f5f5f5;
+	--mvcc-button-action-active-color: #fff;
+	--mvcc-button-action-active-background-color: #005D95;
+
+	/* label */
+
+	--mvcc-label-height: 1.5rem;
+
+/*
+   utilities
+   ========================================================================== */
+
+	--mvcc-primary-color: #fff;
+	--mvcc-primary-background-color: #222;
+	--mvcc-secondary-color: #fff;
+	--mvcc-secondary-background-color: #005d95;
+	--mvcc-tertiary-color: #fff;
+	--mvcc-tertiary-background-color: #59009d;
+	--mvcc-accent-color: #222;
+	--mvcc-accent-background-color: #f5f5f5;
+	--mvcc-warning-color: #000;
+	--mvcc-warning-background-color: #f5d843;
+	--mvcc-danger-color: #fff;
+	--mvcc-danger-background-color: #bc2d00;
+	--mvcc-info-color: #fff;
+	--mvcc-info-background-color: #005d95;
+	--mvcc-success-color: #fff;
+	--mvcc-success-background-color: #008441;
+}

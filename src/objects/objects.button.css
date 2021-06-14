@@ -1,0 +1,79 @@
+/* ==========================================================================
+   #objects.button
+   ========================================================================== */
+
+/**
+ * The button object is used to create common button patterns.
+ *
+ * Usage:
+ *
+ * <button class="mvcc-button"></button>
+ */
+
+.mvcc-button {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding-top: var(--mvcc-spacing-extra-small);
+	padding-bottom: var(--mvcc-spacing-extra-small);
+	padding-left: var(--mvcc-spacing-small);
+	padding-right: var(--mvcc-spacing-small);
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+	transition: .2s;
+}
+
+/*
+   --type-raised
+   ========================================================================== */
+
+/**
+ * Applies a raised style on the button.
+ *
+ * Usage:
+ *
+ * <button class="mvcc-button mvcc-button--type-raised"></button>
+ */
+
+.mvcc-button--type-raised {
+    box-shadow: 0 2px 4px 0 var(--mvcc-button-raised-box-shadow-color);
+	color: var(--mvcc-button-raised-color);
+	background-color: var(--mvcc-button-raised-background-color);
+}
+
+.mvcc-button--type-raised:active {
+	top: 2px;
+	box-shadow: none;
+	background-color: var(--mvcc-button-raised-active-background-color);
+}
+
+/*
+   --type-outline
+   ========================================================================== */
+
+/**
+ * Applies an outlined style on the button.
+ *
+ * Usage:
+ *
+ * <button class="mvcc-button mvcc-button--type-outline"></button>
+ */
+
+.mvcc-button--type-outline {
+	border-width: var(--mvcc-button-outline-border-width);
+	border-color: var(--mvcc-button-outline-border-color);
+	border-radius: var(--mvcc-button-outline-border-radius);
+}
+
+.mvcc-button--type-outline:active {
+	color: var(--mvcc-button-outline-active-color);
+	background-color: var(--mvcc-button-outline-active-background-color);
+}

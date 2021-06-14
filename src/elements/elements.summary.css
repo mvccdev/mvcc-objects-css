@@ -1,0 +1,11 @@
+/* ==========================================================================
+   #elements.summary
+   ========================================================================== */
+
+/**
+ * Provide a better indicator that a summary element is clickable.
+ */
+
+summary {
+	cursor: pointer;
+}

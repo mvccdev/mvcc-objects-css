@@ -1,0 +1,41 @@
+/* ==========================================================================
+   #generic.shared
+   ========================================================================== */
+
+/**
+ * Maintain the margins of our common block elements in one place.
+ */
+
+/*
+   margin-bottom
+   ========================================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+hr,
+blockquote,
+address,
+table,
+fieldset,
+figure,
+pre {
+	margin-bottom: var(--mvcc-spacing-medium);
+}
+
+/*
+   margin-left
+   ========================================================================== */
+
+ul,
+ol,
+dl {
+	margin-left: var(--mvcc-spacing-medium);
+}

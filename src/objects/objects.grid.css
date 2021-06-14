@@ -1,0 +1,217 @@
+/* ==========================================================================
+   #objects.grid
+   ========================================================================== */
+
+/**
+ * The grid object is used to create common grid layouts.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-grid">
+ *     <div></div>
+ *     <div></div>
+ * </div>
+ */
+.mvcc-grid {
+	display: grid;
+}
+
+/*
+   --gutter-extra-small
+   ========================================================================== */
+
+/**
+ * Applies an extra-small gutter between the rows and columns.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-grid mvcc-grid--gutter-small">
+ *     <div></div>
+ *     <div></div>
+ * </div>
+ */
+.mvcc-grid--gutter-extra-small {
+	grid-gap: var(--mvcc-spacing-extra-small);
+}
+
+/*
+   --gutter-small
+   ========================================================================== */
+
+/**
+ * Applies a small gutter between the rows and columns.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-grid mvcc-grid--gutter-small">
+ *     <div></div>
+ *     <div></div>
+ * </div>
+ */
+.mvcc-grid--gutter-small {
+	grid-gap: var(--mvcc-spacing-small);
+}
+
+/*
+   --gutter-medium
+   ========================================================================== */
+
+/**
+ * Applies a medium gutter between the rows and columns.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-grid mvcc-grid--gutter-medium">
+ *     <div></div>
+ *     <div></div>
+ * </div>
+ */
+.mvcc-grid--gutter-medium {
+	grid-gap: var(--mvcc-spacing-medium);
+}
+
+/*
+   --gutter-large
+   ========================================================================== */
+
+/**
+ * Applies a large gutter between the rows and columns.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-grid mvcc-grid--gutter-large">
+ *     <div></div>
+ *     <div></div>
+ * </div>
+ */
+.mvcc-grid--gutter-large {
+	grid-gap: var(--mvcc-spacing-large);
+}
+
+/*
+   --gutter-extra-large
+   ========================================================================== */
+
+/**
+ * Applies an extra-large gutter between the rows and columns.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-grid mvcc-grid--gutter-extra-large">
+ *     <div></div>
+ *     <div></div>
+ * </div>
+ */
+.mvcc-grid--gutter-extra-large {
+	grid-gap: var(--mvcc-spacing-extra-large);
+}
+
+/*
+    --layout-2-column
+    ========================================================================== */
+
+/**
+ * Applies a two-column layout to the grid.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-grid mvcc-grid--layout-2-column">
+ *     <div></div>
+ *     <div></div>
+ * </div>
+ */
+@media (min-width: 48em) {
+	.mvcc-grid--layout-2-column {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+/*
+   --layout-3-column
+   ========================================================================== */
+
+/**
+* Applies a three-column layout to the grid.
+*
+* Usage:
+*
+* <div class="mvcc-grid mvcc-grid--layout-3-column">
+*     <div></div>
+*     <div></div>
+*     <div></div>
+* </div>
+*/
+@media (min-width: 48em) {
+	.mvcc-grid--layout-3-column {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+/*
+   --layout-4-column
+   ========================================================================== */
+
+/**
+* Applies a four-column layout to the grid.
+*
+* Usage:
+*
+* <div class="mvcc-grid mvcc-grid--layout-4-column">
+*     <div></div>
+*     <div></div>
+*     <div></div>
+*     <div></div>
+* </div>
+*/
+@media (min-width: 48em) {
+	.mvcc-grid--layout-4-column {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 64em) {
+	.mvcc-grid--layout-4-column {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+/*
+   --layout-left-sidebar
+   ========================================================================== */
+
+/**
+* Applies a two-column layout to the grid, with the left column being a sidebar.
+*
+* Usage:
+*
+* <div class="mvcc-grid mvcc-grid--layout-left-sidebar">
+*     <div></div>
+*     <div></div>
+* </div>
+*/
+@media (min-width: 48em) {
+	.mvcc-grid--layout-left-sidebar {
+		grid-template-columns: 1fr 3fr;
+	}
+}
+
+/*
+   --layout-right-sidebar
+   ========================================================================== */
+
+/**
+* Applies a two-column layout to the grid, with the right column being a
+* sidebar.
+*
+* Usage:
+*
+* <div class="mvcc-grid mvcc-grid--layout-right-sidebar">
+*     <div></div>
+*     <div></div>
+* </div>
+*/
+@media (min-width: 48em) {
+	.mvcc-grid--layout-right-sidebar {
+		grid-template-columns: 3fr 1fr;
+	}
+}

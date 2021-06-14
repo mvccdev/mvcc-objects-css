@@ -1,0 +1,49 @@
+/* ==========================================================================
+   #utilities.colors
+   ========================================================================== */
+
+/*
+   --type-title
+   ========================================================================== */
+
+/**
+ * Applies the Title font-size to an element.
+ *
+ * Example:
+ *
+ * <h1 class="mvcc--type-title"></div>
+ */
+.mvcc--type-heading {
+	font-size: var(--mvcc-h1-font-size);
+}
+
+/*
+   --type-heading
+   ========================================================================== */
+
+/**
+ * Applies the Heading font-size to an element.
+ *
+ * Example:
+ *
+ * <h1 class="mvcc--type-heading"></div>
+ */
+.mvcc--type-subheading {
+	font-size: var(--mvcc-h3-font-size);
+}
+
+/*
+   --type-subheading
+   ========================================================================== */
+
+/**
+ * Applies the Subheading font-size to an element.
+ *
+ * Example:
+ *
+ * <h1 class="mvcc--type-heading"></div>
+ */
+.mvcc--type-title {
+	font-size: var(--mvcc-h4-font-size);
+ 
+}

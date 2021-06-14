@@ -1,0 +1,12 @@
+/* ==========================================================================
+   #elements.small
+   ========================================================================== */
+
+/**
+ * Not recommended for accessibility reasons. Default size is normal.
+ */
+
+small,
+.mvcc--type-small {
+	font-size: var(--mvcc-small-font-size);
+}

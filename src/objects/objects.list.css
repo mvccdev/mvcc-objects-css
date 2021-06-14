@@ -1,0 +1,161 @@
+/* ==========================================================================
+   #objects.link
+   ========================================================================== */
+
+/**
+ * The list object is used to arrange an images, text, and meta data.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-list">
+ *     <div class="mvcc-list__item">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-list {
+	margin-bottom: var(--mvcc-spacing-medium);
+}
+
+.mvcc-list > :last-child {
+	margin-bottom: 0;
+}
+
+/*
+   --button
+   ========================================================================== */
+
+/**
+ * Applies an elevation effect around the list item when its hovered.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-list mvcc-list--hover">
+ *     <div class="mvcc-list__item">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-list--hover > .mvcc-list__item {
+	position: relative;
+    cursor: pointer;
+    margin-bottom: 0;
+	padding: var(--mvcc-spacing-extra-small);
+}
+
+.mvcc-list--hover > .mvcc-list__item:hover {
+	background-color: red;
+}
+
+/*
+   __item
+   ========================================================================== */
+
+/**
+ * An required element that defines a list item.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-list">
+ *     <div class="mvcc-list__item">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-list__item {
+	display: flex;
+    align-items: center;
+    margin-bottom: var(--mvcc-spacing-small);
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+   __image
+   ========================================================================== */
+
+/**
+ * An optional element that defines a list item's image.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-list">
+ *     <div class="mvcc-list__item">
+ *         <ing class="mvcc-list__text">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-list__image {
+	margin-right: var(--mvcc-spacing-small);
+}
+
+/*
+   __text
+   ========================================================================== */
+
+/**
+ * An optional element that defines a list item's text.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-list">
+ *     <div class="mvcc-list__item">
+ *         <div class="mvcc-list__text">
+ *         </div>
+ *     </div>
+ * </div>
+ */
+
+.mvcc-list__text {
+	flex-grow: 1;
+}
+
+/*
+   __text
+   ========================================================================== */
+
+/**
+ * An optional element that defines a list item's info.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-list">
+ *     <div class="mvcc-list__item">
+ *         <div class="mvcc-list__text">
+ *             Line 1
+ *             <div class="mvcc-list__info">
+ *                 Line 2
+ *             </div>
+ *         </div>
+ *     </div>
+ * </div>
+ */
+
+/* Might be an accessibility concern. */
+
+.mvcc-list__info {
+	font-size: 85%;
+	opacity: .85;
+}
+
+/*
+   __meta
+   ========================================================================== */
+
+/**
+ * An optional element that defines a list item's meta data.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-list">
+ *     <div class="mvcc-list__item">
+ *         <div class="mvcc-list__meta">
+ *         </div>
+ *     </div>
+ * </div>
+ */
+
+.mvcc-list__meta {
+	margin-left: var(--mvcc-spacing-small);
+}

@@ -1,13 +1,18 @@
 {
-	"name": "github-repo-template",
+	"name": "mvcc-objects-css",
 	"version": "1.0.0",
-	"description": "",
-	"author": "Moraine Valley Community College",
+	"main": "index.js",
+	"author": "Eric Harms",
 	"license": "MIT",
 	"keywords": [
 		"mvcc"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"watch": "parcel src/mvcc.css",
+		"build": "parcel build src/mvcc.css"
+	},
+	"devDependencies": {
+		"cssnano": "^4.1.11",
+		"parcel-bundler": "^1.12.4"
 	}
 }

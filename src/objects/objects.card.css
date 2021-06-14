@@ -1,0 +1,181 @@
+/* ==========================================================================
+   #objects.card
+   ========================================================================== */
+
+/**
+ * The card object is used to create common card patterns.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-card">
+ * </div>
+ */
+.mvcc-card {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-decoration: none;
+	color: inherit;
+	background-color: #fff;
+}
+
+/*
+  __image
+  ========================================================================== */
+
+/**
+ * An optional element that defines the image of the card.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-card">
+ *     <img class="mvcc-card__image">
+ * </div>
+ */
+
+.mvcc-card__image {
+	width: 100%;
+}
+
+/*
+  __body
+  ========================================================================== */
+
+/**
+ * An optional element that defines the head of the card for image-less cards.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-card">
+ *     <div class="mvcc-card__head">
+ *     </div>
+ * </div>
+ */
+.mvcc-card__head {
+	display: block;
+	padding-top: var(--mvcc-spacing-small);
+	padding-left: var(--mvcc-spacing-medium);
+	padding-right: var(--mvcc-spacing-medium);
+	padding-bottom: 0;
+}
+
+.mvcc-card__head > * {
+	margin-bottom: .75rem;
+}
+
+/*
+  __body
+  ========================================================================== */
+
+/**
+ * An optional element that defines the body of the card.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-card">
+ *     <div class="mvcc-card__body">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-card__body {
+   display: block;
+   padding-top: var(--mvcc-spacing-medium);
+   padding-left: var(--mvcc-spacing-medium);
+   padding-right: var(--mvcc-spacing-medium);
+   padding-bottom: var(--mvcc-spacing-small);
+}
+
+.mvcc-card__body > * {
+	margin-bottom: .75rem;
+}
+
+/*
+  __foot
+  ========================================================================== */
+
+/**
+ * An optional element that defines the foot of the card for buttons.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-card">
+ *     <div class="mvcc-card__foot">
+ *         <a></a>
+ *         <a></a>
+ *         <a></a>
+ *     </div>
+ * </div>
+ */
+
+.mvcc-card__foot {
+	display: block;
+	padding-top: 0;
+	padding-left: var(--mvcc-spacing-medium);
+	padding-right: var(--mvcc-spacing-medium);
+	padding-bottom: var(--mvcc-spacing-medium);
+}
+/*
+  __chevron
+  ========================================================================== */
+
+/**
+* An optional element that defines a chevron image.
+*
+* Usage:
+*
+* <div class="site-card site-card--button">
+*     <img class="site-card__chevron">
+* </div>
+*/
+.mvcc-card__chevron {
+	position: absolute;
+	bottom: 12px;
+	right: 12px;
+}
+
+/*
+   --border
+   ========================================================================== */
+
+/**
+* Applies a border around the card.
+*
+* Usage:
+*
+* <div class="mvcc-card mvcc-card--border">
+* </div>
+*/
+
+.mvcc-card--border {
+   border: 1px solid #ddd;
+}
+
+/*
+   --button
+   ========================================================================== */
+
+/**
+* Applies an elevation effect around the card when its hovered.
+*
+* Usage:
+*
+* <div class="mvcc-card mvcc-card--button">
+* </div>
+*/
+
+.mvcc-card--button {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+   	cursor: pointer;
+   	transition: .2s ease;
+}
+
+.mvcc-card--button:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .4);
+}
+
+.mvcc-card--button:active {
+	outline: 0;
+	top: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+}

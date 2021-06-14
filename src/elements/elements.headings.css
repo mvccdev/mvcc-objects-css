@@ -1,0 +1,45 @@
+/* ==========================================================================
+   #headings
+   ========================================================================== */
+
+/*
+   font-sizes
+   ========================================================================== */
+
+h1 {
+	font-size: var(--mvcc-h1-font-size);
+}
+
+h2 {
+	font-size: var(--mvcc-h2-font-size);
+}
+
+h3 {
+	font-size: var(--mvcc-h3-font-size);
+}
+
+h4 {
+	font-size: var(--mvcc-h4-font-size);
+}
+
+h5 {
+	font-size: var(--mvcc-h5-font-size);
+}
+
+h6 {
+	font-size: var(--mvcc-h6-font-size);
+}
+
+/*
+   shared
+   ========================================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--mvcc-heading-font-family);
+	font-weight: normal;
+}

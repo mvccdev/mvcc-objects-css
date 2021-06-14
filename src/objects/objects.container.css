@@ -1,0 +1,109 @@
+/**
+ * The container object is used to constrain and center elements on the page.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-container">
+ * </div>
+ */
+.mvcc-container {
+	padding-left: var(--mvcc-spacing-medium);
+	padding-right: var(--mvcc-spacing-medium);
+}
+
+.mvcc-container > :last-child {
+	margin-bottom: 0;
+}
+
+@media (min-width: 64em) {
+	.mvcc-container {
+		max-width: 1280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*
+   --spacing-extra-small
+   ========================================================================== */
+
+/**
+ * Applies an extra-small amount of spacing inside the container.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-container mvcc-container--spacing-extra-small">
+ * </div>
+ */
+.mvcc-container--spacing-extra-small {
+	padding-top: var(--mvcc-spacing-extra-small);
+	padding-bottom: var(--mvcc-spacing-extra-small);
+}
+
+/*
+   --spacing-small
+   ========================================================================== */
+
+/**
+ * Applies a small amount of spacing inside the container.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-container mvcc-container--spacing-small">
+ * </div>
+ */
+.mvcc-container--spacing-small {
+	padding-top: var(--mvcc-spacing-small);
+	padding-bottom: var(--mvcc-spacing-small);
+}
+
+/*
+   --spacing-medium
+   ========================================================================== */
+
+/**
+ * Applies a medium amount of spacing inside the container.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-container mvcc-container--spacing-medium">
+ * </div>
+ */
+.mvcc-container--spacing-medium {
+	padding-top: var(--mvcc-spacing-medium);
+	padding-bottom: var(--mvcc-spacing-medium);
+}
+
+/*
+   --spacing-large
+   ========================================================================== */
+
+/**
+ * Applies a large amount of spacing inside the container.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-container mvcc-container--spacing-large">
+ * </div>
+ */
+.mvcc-container--spacing-large {
+	padding-top: var(--mvcc-spacing-large);
+	padding-bottom: var(--mvcc-spacing-large);
+}
+
+/*
+   --extra-large
+   ========================================================================== */
+
+/**
+ * Applies an extra-large amount of spacing inside the container.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-container mvcc-container--spacing-extra-large">
+ * </div>
+ */
+.mvcc-container--extra-large {
+	padding-top: var(--mvcc-spacing-extra-large);
+	padding-bottom: var(--mvcc-spacing-extra-large);
+}

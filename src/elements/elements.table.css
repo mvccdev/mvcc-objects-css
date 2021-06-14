@@ -1,0 +1,20 @@
+/* ==========================================================================
+   #elements.table
+   ========================================================================== */
+
+/**
+ * The element is targeted by tag name in case we don't have control over the
+ * class attribute.
+ */
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th,
+td {
+	padding: var(--mvcc-spacing-small);
+	text-align: left;
+}

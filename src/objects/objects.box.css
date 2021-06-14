@@ -1,0 +1,100 @@
+/* ==========================================================================
+   #objects.box
+   ========================================================================== */
+
+/**
+ * The box object boxes off content from the rest of the page.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-box">
+ * </div>
+ */
+.mvcc-box {
+	display: block;
+	margin-bottom: var(--mvcc-spacing-medium);
+}
+
+.mvcc-box > :last-child {
+	margin-bottom: 0;
+}
+
+/*
+   --gutter-extra-small
+   ========================================================================== */
+
+/**
+ * Applies an extra-small amount of spacing inside the box.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-box mvcc-box--spacing-extra-small">
+ * </div>
+ */
+.mvcc-box--spacing-extra-small {
+	padding: var(--mvcc-spacing-extra-small);
+}
+
+/*
+   --gutter-medium
+   ========================================================================== */
+
+/**
+ * Applies a small amount of spacing inside the box.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-box mvcc-box--spacing-small">
+ * </div>
+ */
+.mvcc-box--spacing-small {
+	 padding: var(--mvcc-spacing-small);
+}
+
+/*
+   --spacing-medium
+   ========================================================================== */
+
+/**
+ * Applies a small amount of spacing inside the box.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-box mvcc-box--spacing-medium">
+ * </div>
+ */
+ .mvcc-box--spacing-medium {
+	 padding: var(--mvcc-spacing-medium);
+ }
+
+/*
+   -spacing-large
+   ========================================================================== */
+
+/**
+ * Applies a large amount of spacing inside the box.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-box mvcc-box--spacing-large">
+ * </div>
+ */
+.mvcc-box--spacing-large {
+	padding: var(--mvcc-spacing-large);
+}
+
+/*
+   --gutter-extra-large
+   ========================================================================== */
+
+/**
+ * Applies an extra-large amount of spacing inside the box.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-box mvcc-box--spacing-extra-large">
+ * </div>
+ */
+.mvcc-box--spacing-extra-large {
+	padding: var(--mvcc-spacing-extra-large);
+}

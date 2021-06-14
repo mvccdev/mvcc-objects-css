@@ -1,0 +1,114 @@
+/* ==========================================================================
+   #objects.form
+   ========================================================================== */
+
+/**
+ * The form object is used to create common form patterns.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-form">
+ *     <div class="mvcc-form__item">
+ *         <label class="mvcc-form__label"></label>
+ *         <input class="mvcc-form__input">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-form {
+	margin-bottom: var(--mvcc-spacing-medium);
+}
+
+/*
+   __item
+   ========================================================================== */
+
+/**
+ * Defines an group containing a label an input.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-form">
+ *     <div class="mvcc-form__item">
+ *         <label class="mvcc-form__label"></label>
+ *         <input class="mvcc-form__input">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-form__item {
+	margin-bottom: var(--mvcc-spacing-extra-small);
+}
+
+/*
+   __label
+   ========================================================================== */
+
+/**
+ * Defines the label inside the __item element.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-form">
+ *     <div class="mvcc-form__item">
+ *         <label class="mvcc-form__label"></label>
+ *         <input class="mvcc-form__input">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-form__label {
+	display: block;
+	margin-bottom: var(--mvcc-spacing-extra-small);
+}
+
+/*
+   __label
+   ========================================================================== */
+
+/**
+ * Defines the input inside the __item element.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-form">
+ *     <div class="mvcc-form__item">
+ *         <label class="mvcc-form__label"></label>
+ *         <input class="mvcc-form__input">
+ *     </div>
+ * </div>
+ */
+.mvcc-form__input {
+	width:var(--mvcc-form-input-width);
+	padding-top: var(--mvcc-spacing-extra-small);
+	padding-bottom: var(--mvcc-spacing-extra-small);
+	padding-left: var(--mvcc-spacing-extra-small);
+	padding-right: var(--mvcc-spacing-extra-small);
+	border-width: var(--mvcc-form-input-border-width);
+	border-style: solid;
+	border-color: var(--mvcc-form-input-border-color);
+	font-family: inherit;
+	font-size: 100%;
+	transition: .1s;
+}
+
+/*
+   --block
+   ========================================================================== */
+
+/**
+ * Applies a full width to the input element.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-form">
+ *     <div class="mvcc-form__item">
+ *         <label class="mvcc-form__label"></label>
+ *         <input class="mvcc-form__input mvcc-form__input--block">
+ *     </div>
+ * </div>
+ */
+.mvcc-form__input--block {
+	display: block;
+	width: 100%;
+}

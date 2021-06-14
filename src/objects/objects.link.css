@@ -1,0 +1,53 @@
+/* ==========================================================================
+   #objects.link
+   ========================================================================== */
+
+/**
+ * The link object is used to create different link patterns.
+ *
+ * Usage:
+ *
+ * <a class="mvcc-link" href="#"></a>
+ */
+
+.mvcc-link {
+	color: inherit;
+}
+
+/*
+   __icon
+   ========================================================================== */
+
+/**
+ * An optional element that specifies a link's icon.
+ *
+ * Usage:
+ *
+ * <a class="mvcc-link" href="#">
+ *     <img class="mvcc-link__icon">
+ * </a>
+ */
+
+.mvcc-link__icon {
+	padding-right: var(--mvcc-spacing-extra-small);
+}
+
+/*
+   --hover
+   ========================================================================== */
+
+/**
+ * Underlines the link when only the user moves over it.
+ *
+ * Usage:
+ *
+ * <a class="mvcc-link mvcc-link--hover-underline" href="#"></a>
+ */
+
+.mvcc-link--hover-underline {
+	text-decoration: none;
+}
+
+.mvcc-link--hover-underline:hover {
+	text-decoration: underline;
+}
