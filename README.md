@@ -42,6 +42,10 @@ Use the following CL commands to test or compile this project:
 | npm run watch | Test the project in a local development server       |
 | npm run build | Build the project                                    |
 
+## Documentation
+
+All documentation can be found on our [Canvas course](https://canvas.morainevalley.edu/enroll/JE48AC).
+
 ## Contributing
 
 Pull requests are encouraged and welcome.
