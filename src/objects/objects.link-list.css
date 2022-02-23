@@ -104,23 +104,4 @@
 		column-count: 4;
 	}
 }
-
-/*
-   --vertical
-   ========================================================================== */
-
-/**
- * The link-list object is used to build out a list of links.
- *
- * Usage:
- *
- * <nav class="mvcc-link-list">
- *     <a class="mvcc-link-list__item"></a>
- *     <a class="mvcc-link-list__item"></a>
- *     <a class="mvcc-link-list__item"></a>
- * </nav>
- */
-
-.mvcc-link-list__item {
-	display: block;
-}
+ 

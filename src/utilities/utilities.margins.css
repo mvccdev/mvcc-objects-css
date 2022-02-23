@@ -7,18 +7,31 @@
    ========================================================================== */
 
 /**
- * Modifiers used to change the element's margin-bottom.
+ * Remove the margin around an element.
  *
  * Example:
  *
- * <div class="m.mvcc--margin-bottom-none {
- *     margin-bottom: 0;
+ * <div class="mvcc--margin-bottom-none">
+ *
  * </div>
  */
 .mvcc--margin-bottom-none {
 	margin-bottom: 0;
 }
 
+/*
+   --margin-bottom-medium
+   ========================================================================== */
+
+/**
+* Applies a medium amount of spacing on the bottom of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-bottom-medium">
+*
+* </div>
+*/
 .mvcc--margin-bottom-medium {
 	margin-bottom: var(--mvcc-spacing-medium);
 }
