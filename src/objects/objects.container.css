@@ -22,6 +22,21 @@
 		margin-right: auto;
 	}
 }
+/*
+   --flush
+   ========================================================================== */
+
+/**
+ * Applies a full width to the container.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-container mvcc-container--width-full">
+ * </div>
+ */
+.mvcc-container--width-full {
+	max-width: 100%;
+}
 
 /*
    --spacing-extra-small
