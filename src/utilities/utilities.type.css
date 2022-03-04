@@ -29,7 +29,7 @@
  * <h1 class="mvcc--type-heading"></div>
  */
 .mvcc--type-subheading {
-	font-size: var(--mvcc-h3-font-size);
+	font-size: var(--mvcc-h2-font-size);
 }
 
 /*
@@ -44,6 +44,20 @@
  * <h1 class="mvcc--type-heading"></div>
  */
 .mvcc--type-title {
+	font-size: var(--mvcc-h3-font-size);
+
+}
+/*
+   --type-card-title
+   ========================================================================== */
+
+/**
+ * Applies the Card Title font-size to an element.
+ *
+ * Example:
+ *
+ * <h1 class="mvcc--type-card-title"></div>
+ */
+.mvcc--type-card-title {
 	font-size: var(--mvcc-h4-font-size);
- 
 }

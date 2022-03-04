@@ -16,6 +16,7 @@
 
 .mvcc-menu {
 	display: flex;
+	align-items: center;
 }
 
 .mvcc-menu__item {
