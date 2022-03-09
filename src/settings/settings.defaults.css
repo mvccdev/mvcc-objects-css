@@ -62,7 +62,7 @@
    objects
    ========================================================================== */
 
-	
+
 	/* table */
 
 	--mvcc-table-border-width: 1px;
@@ -74,6 +74,12 @@
 	--mvcc-form-input-width: 300px;
 	--mvcc-form-input-border-width: 1px;
 	--mvcc-form-input-border-color: #ccc;
+
+	/* card */
+
+	--mvcc-card-heading-font-family: serif;
+	--mvcc-card-heading-font-size: 1.1rem;
+	--mvcc-card-heading-font-weight: 400;
 
 	/* button */
 

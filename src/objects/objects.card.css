@@ -38,7 +38,7 @@
 }
 
 /*
-  __body
+  __head
   ========================================================================== */
 
 /**
@@ -115,6 +115,31 @@
 	padding-right: var(--mvcc-spacing-medium);
 	padding-bottom: var(--mvcc-spacing-medium);
 }
+
+/*
+  __heading
+  ========================================================================== */
+
+/**
+* An optional element that defines a card heading.
+*
+* Usage:
+*
+* <div class="site-card site-card--button">
+*     <div class="site-card__head">
+*         <div class="site-card__heading">
+*             Heading
+*         </div>
+*     </div>
+* </div>
+*/
+.mvcc-card__heading {
+    display: block;
+    font-family: var(--mvcc-card-heading-font-family);
+    font-weight: var(--mvcc-card-heading-font-weight);
+    font-size: var(--mvcc-card-heading-font-size);
+}
+
 /*
   __chevron
   ========================================================================== */
