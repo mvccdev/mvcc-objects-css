@@ -9,3 +9,11 @@
 .mvcc--align-center {
 	text-align: center;
 }
+
+/*
+   --align-middle
+   ========================================================================== */
+
+.mvcc--align-middle {
+	vertical-align: middle;
+}

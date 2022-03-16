@@ -191,7 +191,7 @@
 */
 @media (min-width: 48em) {
 	.mvcc-grid--layout-left-sidebar {
-		grid-template-columns: 1fr 3fr;
+		grid-template-columns: 1fr 2fr;
 	}
 }
 
@@ -212,6 +212,6 @@
 */
 @media (min-width: 48em) {
 	.mvcc-grid--layout-right-sidebar {
-		grid-template-columns: 3fr 1fr;
+		grid-template-columns: 2fr 1fr;
 	}
 }

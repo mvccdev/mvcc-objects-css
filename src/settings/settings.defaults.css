@@ -28,15 +28,15 @@
 
 	/* body */
 
-	--mvcc-body-font-family: sans-serif;
-	--mvcc-body-font-size: 16px;
+	--mvcc-body-font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	--mvcc-body-font-size: 18px;
 	--mvcc-body-color: #222;
 	--mvcc-body-background-color: #fff;
 	--mvcc-body-line-height: 1.5;
 
 	/* headings */
 
-	--mvcc-heading-font-family: serif;
+	--mvcc-heading-font-family: 'Roboto Condensed', Arial, sans-serif;
 	--mvcc-h1-font-size: 2.488em;
 	--mvcc-h2-font-size: 2.074em;
 	--mvcc-h3-font-size: 1.728em;
@@ -77,7 +77,7 @@
 
 	/* card */
 
-	--mvcc-card-heading-font-family: serif;
+	--mvcc-card-heading-font-family: 'Roboto Condensed', Arial, sans-serif;
 	--mvcc-card-heading-font-size: 1.1rem;
 	--mvcc-card-heading-font-weight: 400;
 
@@ -107,11 +107,11 @@
    ========================================================================== */
 
 	--mvcc-primary-color: #fff;
-	--mvcc-primary-background-color: #222;
+	--mvcc-primary-background-color: #334155;
 	--mvcc-secondary-color: #fff;
-	--mvcc-secondary-background-color: #005d95;
+	--mvcc-secondary-background-color: #222;
 	--mvcc-tertiary-color: #fff;
-	--mvcc-tertiary-background-color: #59009d;
+	--mvcc-tertiary-background-color: #815F48;
 	--mvcc-accent-color: #222;
 	--mvcc-accent-background-color: #f5f5f5;
 	--mvcc-warning-color: #000;
