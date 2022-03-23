@@ -18,7 +18,42 @@
 .mvcc--margin-bottom-none {
 	margin-bottom: 0;
 }
- 
+
+
+/*
+   --margin-left-medium
+   ========================================================================== */
+
+/**
+* Applies a medium amount of spacing on the left of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-left-medium">
+*
+* </div>
+*/
+.mvcc--margin-left-medium {
+	margin-left: var(--mvcc-spacing-medium);
+}
+
+/*
+   --margin-right-medium
+   ========================================================================== */
+
+/**
+* Applies a medium amount of spacing on the right of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-right-medium">
+*
+* </div>
+*/
+.mvcc--margin-right-medium {
+	margin-right: var(--mvcc-spacing-medium);
+}
+
 /*
    --margin-bottom-medium
    ========================================================================== */

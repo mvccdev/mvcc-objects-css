@@ -17,3 +17,11 @@
 .mvcc--align-middle {
 	vertical-align: middle;
 }
+
+/*
+   --align-right
+   ========================================================================== */
+
+.mvcc--align-right {
+	text-align: right;
+}
