@@ -16,6 +16,8 @@
 
 .mvcc-menu {
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 	align-items: center;
 }
 
@@ -63,6 +65,12 @@
  * </nav>
  */
 
+@media (min-width: 48em) {
+    .mvcc-menu--layout-inline {
+        flex-direction: row;
+    }
+}
+
 .mvcc-menu--layout-inline > .mvcc-menu__item {
 	margin-right: var(--mvcc-spacing-medium);
 }
@@ -84,6 +92,6 @@
  */
 
 .mvcc-menu--layout-block {
-		align-items:flex-start;
+	align-items: flex-start;
 	flex-direction: column;
 }

@@ -66,3 +66,33 @@
 	border-top-style: var(--mvcc-table-border-style);
 	border-top-color: var(--mvcc-table-border-color);
 }
+
+/*
+   --type-zebra
+   ========================================================================== */
+
+/**
+ * Applies a alternative row color.
+ *
+ * Usage:
+ *
+ * <table class="mvcc-table mvcc-table--type-zebra">
+ *     <thead>
+ *         <tr>
+ *             <th></th>
+ *             <th></th>
+ *             <th></th>
+ *         </tr>
+ *     </thead>
+ *     <tbody>
+ *         <tr>
+ *             <td></td>
+ *             <td></td>
+ *             <td></td>
+ *         </tr>
+ *     </tbody>
+ * </table>
+ */
+.mvcc-table--type-zebra > tbody > tr:nth-child(even) {
+    background-color: var(--mvcc-table-zebra-background-color);
+}

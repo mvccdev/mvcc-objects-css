@@ -68,6 +68,7 @@
 	--mvcc-table-border-width: 1px;
 	--mvcc-table-border-style: solid;
 	--mvcc-table-border-color: #ccc;
+	--mvcc-table-zebra-background-color: #eee;
 
 	/* form */
 
