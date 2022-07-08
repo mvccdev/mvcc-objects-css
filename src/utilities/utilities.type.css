@@ -33,15 +33,15 @@
 }
 
 /*
-   --type-subheading
+   --type-title
    ========================================================================== */
 
 /**
- * Applies the Subheading font-size to an element.
+ * Applies the Title font-size to an element.
  *
  * Example:
  *
- * <h1 class="mvcc--type-heading"></div>
+ * <h1 class="mvcc--type-title"></div>
  */
 .mvcc--type-title {
 	font-size: var(--mvcc-h3-font-size);

@@ -133,7 +133,7 @@
    color: var(--mvcc-info-color);
    background-color: var(--mvcc-info-background-color);
 }
- 
+
 /*
    --color-success
    ========================================================================== */
@@ -148,4 +148,19 @@
  .mvcc--color-success {
    color: var(--mvcc-success-color);
    background-color: var(--mvcc-success-background-color);
+}
+
+/*
+   --color-inherit
+   ========================================================================== */
+
+/**
+ * Applies the parent element's color.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-inherit"></div>
+ */
+.mvcc--color-inherit {
+    color: inherit;
 }
