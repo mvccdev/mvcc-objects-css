@@ -77,3 +77,33 @@
 	color: var(--mvcc-button-outline-active-color);
 	background-color: var(--mvcc-button-outline-active-background-color);
 }
+
+/*
+   --type-pill
+   ========================================================================== */
+
+/**
+ * Applies a large pill style on the button.
+ *
+ * Usage:
+ *
+ * <button class="mvcc-button mvcc-button--type-outline"></button>
+ */
+.mvcc-button--type-pill {
+	padding-top: var(--mvcc-spacing-small);
+	padding-bottom: var(--mvcc-spacing-small);
+	padding-left: var(--mvcc-spacing-medium);
+	padding-right: var(--mvcc-spacing-medium);
+	border-radius: 100px;
+	font-size: .85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--mvcc-button-pill-color);
+	background-color: var(--mvcc-button-pill-background-color);
+	box-shadow: 0 2px 4px 0 var(--mvcc-button-pill-box-shadow-color);
+}
+
+.mvcc-button--type-pill:active {
+	color: var(--mvcc-button-pill-active-color);
+	background-color: var(--mvcc-button-pill-active-background-color);
+}

@@ -99,6 +99,12 @@
 	--mvcc-button-action-active-color: #fff;
 	--mvcc-button-action-active-background-color: #005D95;
 
+	--mvcc-button-pill-box-shadow-color: rgba(0,0,0,0.4);
+	--mvcc-button-pill-color: #fff;
+	--mvcc-button-pill-background-color: #005D95;
+	--mvcc-button-pill-active-color: #fff;
+	--mvcc-button-pill-active-background-color: #000;
+
 	/* label */
 
 	--mvcc-label-height: 1.5rem;

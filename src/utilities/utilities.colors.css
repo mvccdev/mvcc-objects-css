@@ -68,11 +68,27 @@
 }
 
 /*
+   --color-body
+   ========================================================================== */
+
+/**
+ * Applies the body color to an element.
+ *
+ * Example:
+ *
+ * <span class="mvcc--color-reverse"></div>
+ */
+.mvcc--color-body {
+    color: var(--mvcc-body-color);
+    background-color: var(--mvcc-body-background-color);
+}
+
+/*
    --color-reverse
    ========================================================================== */
 
 /**
- * Applies the reverse color to an element.
+ * Applies the reverse body color to an element.
  *
  * Example:
  *
@@ -83,7 +99,6 @@
     background-color: var(--mvcc-body-color);
 }
 
-/*****************************/
 
 
 /*

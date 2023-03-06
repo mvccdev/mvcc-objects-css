@@ -55,6 +55,23 @@
 }
 
 /*
+   --margin-top-medium
+   ========================================================================== */
+
+/**
+* Applies a medium amount of spacing on the top of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-top-medium">
+*
+* </div>
+*/
+.mvcc--margin-top-medium {
+	margin-top: var(--mvcc-spacing-medium);
+}
+
+/*
    --margin-bottom-medium
    ========================================================================== */
 

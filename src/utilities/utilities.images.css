@@ -17,3 +17,19 @@
 	width: 100%;
 	height: auto;
 }
+
+/*
+   --image-stretch
+   ========================================================================== */
+
+/**
+ * Applies a full-width to an image.
+ *
+ * Example:
+ *
+ * <div class="mvcc--image-stretch"></div>
+ */
+.mvcc--image-thumb {
+	width: 200px;
+	height: auto;
+}

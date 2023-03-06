@@ -38,6 +38,7 @@
 @import './objects/objects.container.css';
 @import './objects/objects.card.css';
 @import './objects/objects.grid.css';
+@import './objects/objects.media.css';
 @import './objects/objects.box.css';
 @import './objects/objects.table.css';
 @import './objects/objects.link.css';

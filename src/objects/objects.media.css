@@ -1,0 +1,74 @@
+/* ==========================================================================
+   objects.media
+   ========================================================================== */
+
+/**
+ * The media object floats an image to the side of content.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-media">
+ *     <img class="mvcc-media__image">
+ *     <div class="mvcc-media__body">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-media {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: var(--mvcc-spacing-medium);
+}
+
+.mvcc-media__image {
+	margin-right: var(--mvcc-spacing-medium);
+}
+
+.mvcc-media__body {
+	flex: 3;
+}
+
+.mvcc-media__body > :last-child {
+	margin-bottom: 0;
+}
+
+/*
+   -center
+   ========================================================================== */
+
+/**
+ * The -center option centers the image and body in the middle.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-media">
+ *     <img class="mvcc-media__image">
+ *     <div class="mvcc-media__body">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-media--center {
+	align-items: center;
+}
+
+/*
+   -reverse
+   ========================================================================== */
+
+/**
+ * The -reverse option reverses the direction.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-media">
+ *     <img class="mvcc-media__image">
+ *     <div class="mvcc-media__body">
+ *     </div>
+ * </div>
+ */
+
+.mvcc-media--reverse > .mat-media__image {
+	order: 1;
+	margin: 0 0 0 var(--mvcc-spacing-medium);
+}
