@@ -22,6 +22,7 @@
 }
 
 .mvcc-menu__item {
+	padding-left: 0; /* Fix for menu tags */
 	color: inherit;
 	text-decoration: none;
 }
@@ -76,11 +77,11 @@
 }
 
 /*
-   --inline
+   --block
    ========================================================================== */
 
 /**
- * Used to create simple inline menus.
+ * Used to create simple block menus.
  *
  * Usage:
  *
@@ -94,4 +95,8 @@
 .mvcc-menu--layout-block {
 	align-items: flex-start;
 	flex-direction: column;
+}
+
+.mvcc-menu--layout-block > .mvcc-menu__item {
+	width: 100%;
 }
