@@ -1,0 +1,94 @@
+/*
+   --shadow-extra-small
+   ========================================================================== */
+
+/**
+ * Apply an extra-small box shadow on an element.
+ *
+ * Example:
+ *
+ * <div class="mvcc--shadow-extra-small">
+ *
+ * </div>
+ */
+ .mvcc--shadow-extra-small {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+				0 1px 10px 0 rgba(0, 0, 0, 0.2),
+				0 2px 4px -1px rgba(0, 0, 0, 0.12);
+}
+
+/*
+   --shadow-small
+   ========================================================================== */
+
+/**
+ * Apply an small box shadow on an element.
+ *
+ * Example:
+ *
+ * <div class="mvcc--shadow-small">
+ *
+ * </div>
+ */
+.mvcc--shadow-small {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+				0 1px 18px 0 rgba(0, 0, 0, 0.2),
+				0 3px 5px -1px rgba(0, 0, 0, 0.12);
+}
+
+/*
+   --shadow-medium
+   ========================================================================== */
+
+/**
+ * Apply an medium box shadow on an element.
+ *
+ * Example:
+ *
+ * <div class="mvcc--shadow-medium">
+ *
+ * </div>
+ */
+.mvcc--shadow-medium {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+				0 3px 14px 2px rgba(0, 0, 0, 0.2),
+				0 5px 5px -3px rgba(0, 0, 0, 0.12);
+}
+
+/*
+   --shadow-large
+   ========================================================================== */
+
+/**
+ * Apply an large box shadow on an element.
+ *
+ * Example:
+ *
+ * <div class="mvcc--shadow-large">
+ *
+ * </div>
+ */
+.mvcc--shadow-large {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+				0 6px 30px 5px rgba(0, 0, 0, 0.2),
+				0 8px 10px -5px rgba(0, 0, 0, 0.12);
+}
+
+/*
+   --shadow-extra-large
+   ========================================================================== */
+
+/**
+ * Apply an extra-large box shadow on an element.
+ *
+ * Example:
+ *
+ * <div class="mvcc--shadow-extra-large">
+ *
+ * </div>
+ */
+.mvcc--shadow-extra-large {
+    box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14),
+				0 11px 15px -7px rgba(0, 0, 0, 0.2),
+				0 24px 38px 3px rgba(0, 0, 0, 0.12);
+}
