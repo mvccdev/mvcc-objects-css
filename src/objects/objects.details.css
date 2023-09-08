@@ -1,0 +1,27 @@
+/* ==========================================================================
+   #objects.details
+   ========================================================================== */
+
+/**
+ * The details object is used to create common details patterns.
+ *
+ * Usage:
+ *
+ * <details class="mvcc-detail">
+ *     <summary="mvcc-details__summary"
+ *     </summary>
+ *     <div class="mvcc-details__body">
+ *     </div>
+ * </details>
+ */
+
+.mvcc-details {
+	display: block;
+	margin-bottom: var(--mvcc-spacing-medium);
+}
+
+.mvcc-details__summary,
+.mvcc-details__body {
+	padding: var(--mvcc-spacing-small);
+}
+ 

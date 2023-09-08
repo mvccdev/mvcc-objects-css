@@ -35,6 +35,7 @@
    ========================================================================== */
 
 @import './objects/objects.appbar.css';
+@import './objects/objects.details.css';
 @import './objects/objects.container.css';
 @import './objects/objects.card.css';
 @import './objects/objects.grid.css';
@@ -48,6 +49,7 @@
 @import './objects/objects.form.css';
 @import './objects/objects.button.css';
 @import './objects/objects.label.css';
+@import './objects/objects.effect.css';
 
 /* ==========================================================================
    #utilities

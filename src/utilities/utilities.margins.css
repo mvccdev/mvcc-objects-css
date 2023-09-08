@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /*
-   --margin-bottom
+   --margin-bottom-none
    ========================================================================== */
 
 /**
@@ -19,6 +19,39 @@
 	margin-bottom: 0;
 }
 
+/*
+   --margin-bottom-extra-small
+   ========================================================================== */
+
+/**
+* Applies an extra-small amount of spacing on the bottom of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-bottom-medium">
+*
+* </div>
+*/
+.mvcc--margin-bottom-extra-small {
+	margin-bottom: var(--mvcc-spacing-extra-small);
+}
+
+/*
+   --margin-bottom-medium
+   ========================================================================== */
+
+/**
+* Applies a medium amount of spacing on the bottom of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-bottom-medium">
+*
+* </div>
+*/
+.mvcc--margin-bottom-medium {
+	margin-bottom: var(--mvcc-spacing-medium);
+}
 
 /*
    --margin-left-medium
@@ -69,21 +102,4 @@
 */
 .mvcc--margin-top-medium {
 	margin-top: var(--mvcc-spacing-medium);
-}
-
-/*
-   --margin-bottom-medium
-   ========================================================================== */
-
-/**
-* Applies a medium amount of spacing on the bottom of an element.
-*
-* Example:
-*
-* <div class="mvcc--margin-bottom-medium">
-*
-* </div>
-*/
-.mvcc--margin-bottom-medium {
-	margin-bottom: var(--mvcc-spacing-medium);
 }
