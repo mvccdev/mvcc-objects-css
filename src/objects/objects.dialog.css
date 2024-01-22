@@ -1,0 +1,32 @@
+/* ==========================================================================
+   #objects.dialog
+   ========================================================================== */
+
+/**
+ * The dialog object create basic dialogs to be used with boxes or cards.
+ *
+ * Usage:
+ *
+ * <dialog class="mvcc-dialog">
+ *     <div class="mvcc-card">
+ *   
+ *     </div>
+ * </dialog>
+ */
+.mvcc-dialog {	 
+    padding: 0;
+    border-width: var(--mvcc-dialog-border-width);
+	border-color: var(--mvcc-dialog-border-color);
+	border-radius: var(--mvcc-dialog-border-radius);   
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+				0 3px 14px 2px rgba(0, 0, 0, 0.2),
+				0 5px 5px -3px rgba(0, 0, 0, 0.12);  
+}
+
+@media (min-width: 64em) {
+	.mvcc-dialog {
+		min-width: 600px;
+	}
+}
+
+ 

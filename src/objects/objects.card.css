@@ -57,6 +57,8 @@
 	padding-left: var(--mvcc-spacing-medium);
 	padding-right: var(--mvcc-spacing-medium);
 	padding-bottom: 0;
+	color: var(--mvcc-card-head-color);
+	background-color: var(--mvcc-card-head-background-color);	
 }
 
 .mvcc-card__head > * {
@@ -110,10 +112,12 @@
 
 .mvcc-card__foot {
 	display: block;
-	padding-top: 0;
+	padding-top: var(--mvcc-spacing-small);
 	padding-left: var(--mvcc-spacing-medium);
 	padding-right: var(--mvcc-spacing-medium);
-	padding-bottom: var(--mvcc-spacing-medium);
+	padding-bottom: var(--mvcc-spacing-small);
+	color: var(--mvcc-card-foot-color);
+	background-color: var(--mvcc-card-foot-background-color);
 }
 
 /*

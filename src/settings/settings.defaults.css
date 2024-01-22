@@ -22,6 +22,10 @@
 	--mvcc-focus-outline-style: solid;
 	--mvcc-focus-outline-color: #003859;
 
+	/* :backgrop */
+
+	--mvcc-backdrop-opacity:	.25;
+
 /*
    elements
    ========================================================================== */
@@ -58,6 +62,10 @@
 
 	--mvcc-link-color: #00108e;
 
+	/* dialogs */
+
+	--mvcc-dialog-backdrop-opacity: 1;
+
 /*
    objects
    ========================================================================== */
@@ -80,6 +88,10 @@
 	--mvcc-card-heading-font-family: 'Roboto Condensed', Arial, sans-serif;
 	--mvcc-card-heading-font-size: 1.1rem;
 	--mvcc-card-heading-font-weight: 400;
+	--mvcc-card-head-color: #fff;
+	--mvcc-card-head-background-color: #334155;
+	--mvcc-card-foot-color: #222;
+	--mvcc-card-foot-background-color: #f5f5f5;
 
 	/* button */
 
@@ -97,12 +109,24 @@
 	--mvcc-button-action-hover-background-color: #f5f5f5;
 	--mvcc-button-action-active-color: #fff;
 	--mvcc-button-action-active-background-color: #005D95;
-
 	--mvcc-button-pill-box-shadow-color: rgba(0,0,0,0.4);
 	--mvcc-button-pill-color: #fff;
 	--mvcc-button-pill-background-color: #005D95;
 	--mvcc-button-pill-active-color: #fff;
 	--mvcc-button-pill-active-background-color: #000;
+	
+	/* bar */
+
+	--mvcc-bar-border-color:#ccc;
+	--mvcc-bar-border-width: 1px;
+	--mvcc-bar-background-color: #fff;
+	--mvcc-bar-value-background-color: #334155; 
+
+	/* dialogs */
+
+	--mvcc-dialog-border-width: 4px;
+	--mvcc-dialog-border-color: #000;
+	--mvcc-dialog-border-radius: 2px;
 
 	/* label */
 

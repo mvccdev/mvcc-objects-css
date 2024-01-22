@@ -49,6 +49,8 @@
 @import './objects/objects.form.css';
 @import './objects/objects.button.css';
 @import './objects/objects.label.css';
+@import './objects/objects.dialog.css';
+@import './objects/objects.bar.css';
 @import './objects/objects.effect.css';
 
 /* ==========================================================================

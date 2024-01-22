@@ -30,6 +30,10 @@
 	cursor: pointer;
 	transition: .2s;
 }
+ 
+.mvcc-button:focus {
+	outline:0;
+}
 
 /*
    --type-raised
