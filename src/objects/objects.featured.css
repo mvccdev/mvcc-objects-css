@@ -1,0 +1,75 @@
+/* ==========================================================================
+   #objects.feature
+   ========================================================================== */
+
+/**
+ * The featured object creates a clickable microcard used for text and small icons.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-feature">
+ *      
+ * </div>
+ */
+ .mvcc-featured {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--mvcc-featured-border-color);
+    border-left-style: solid;
+    border-left-width: 12px;
+    border-left-color: var(--mvcc-featured-left-border-color);
+    vertical-align: middle;
+    color: inherit;
+    padding: 1.5rem; 
+    font-weight: 400;
+    text-decoration: underline;
+    display: flex;
+    position: relative;
+    box-shadow: 0 4px 8px #0003;
+  }
+  
+  .mvcc-featured:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .4);
+  }
+  
+  .mvcc-featured:active {
+    outline: 0;
+    top: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  /*
+    __icon
+    ========================================================================== */
+  
+    /**
+   * An optional element used to define the icon image on the left.
+   *
+   * Usage:
+   *
+   * <div class="mvcc-feature">
+   *     <img src="" class="mvcc-feature__chevron">
+   * </div>
+   */
+   .mvcc-featured__icon {
+      height:24px;
+  }
+  
+  /*
+    __chevron
+    ========================================================================== */
+  
+    /**
+   * An optional element used to define the chevron image on the right.
+   *
+   * Usage:
+   *
+   * <div class="mvcc-feature">
+   *     <img src="" class="mvcc-feature__chevron">
+   * </div>
+   */
+  .custom-featured_chevron {
+      position: absolute;
+       right: var(--mvcc-spacing-small);
+  }
+  

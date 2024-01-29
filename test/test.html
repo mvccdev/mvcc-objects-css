@@ -1,33 +1,28 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="../dist/mvcc.css">
-    </head>
-    <body>
-        <h1>Test</h1>
-        <div class="mvcc-bar">
-            <div class="mvcc-bar__value" style="width:25%">&nbsp;</div>
-        </div>
-        <dialog class="mvcc-dialog" id="js-dialog"> 
-            <div class="mvcc-card">
-                <div class="mvcc-card__head mvcc--color-secondaray">
-                    <div class="mvcc--color-heading">Tester</div>
-                </div>
-                <div class="mvcc-card__body">
-                    <p>This is a dialog</p>    <p>This is a dialog</p>    <p>This is a dialog</p>
-                </div>
-                <div class="mvcc-card__foot mvcc--color-acacent">
-                    <button class="mvcc-button mvcc-button--type-raised">
-                        Button 1
-                    </button>
+	<head>
+		<link rel="stylesheet" href="../dist/mvcc.css">
+	</head>
+	<body>
+		<!--#open-dialog-->
 
-                    <button class="mvcc-button mvcc-button--type-raised">
-                        Button 1
-                    </button>
-                </div>
-            </div>
-        </dialog>        
-        <script>
-            document.querySelector("#js-dialog").showModal();
-        </script>
-    </body>
+		<dialog class="mvcc-dialog" id="js-flex-open" open>
+			<div class="mvcc-details">
+				<div class="mvcc-details__summary">
+					Title
+				</div>
+				<div class="mvcc-details__body ">
+					<h1>Does thsi work</h1>
+					<p class="mvcc--margin-bottom-none">
+						<button class="mvcc-button mvcc-button--type-raised">
+							Ok
+						</button>
+
+						<button class="mvcc-button mvcc-button--type-raised">
+							Cancel
+						</button>
+					</p>
+				</div>
+			</div>
+		</dialog>
+	</body>
 </html>

@@ -37,6 +37,23 @@
 }
 
 /*
+   --margin-bottom-small
+   ========================================================================== */
+
+/**
+* Applies an small amount of spacing on the bottom of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-">
+*
+* </div>
+*/
+.mvcc--margin-bottom-small {
+	margin-bottom: var(--mvcc-spacing-small);
+}
+
+/*
    --margin-bottom-medium
    ========================================================================== */
 
@@ -54,6 +71,40 @@
 }
 
 /*
+   --margin-left-extra-small
+   ========================================================================== */
+
+/**
+* Applies a extra-small amount of spacing on the left of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-left-medium">
+*
+* </div>
+*/
+.mvcc--margin-left-extra-small {
+	margin-left: var(--mvcc-spacing-extra-small);
+}
+
+/*
+   --margin-left-small
+   ========================================================================== */
+
+/**
+* Applies a small amount of spacing on the left of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-left-medium">
+*
+* </div>
+*/
+.mvcc--margin-left-small {
+	margin-left: var(--mvcc-spacing-small);
+}
+
+/*
    --margin-left-medium
    ========================================================================== */
 
@@ -68,6 +119,40 @@
 */
 .mvcc--margin-left-medium {
 	margin-left: var(--mvcc-spacing-medium);
+}
+
+/*
+   --margin-right-extra-small
+   ========================================================================== */
+
+/**
+* Applies a extra-small amount of spacing on the right of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-right-medium">
+*
+* </div>
+*/
+.mvcc--margin-right-extra-small {
+	margin-right: var(--mvcc-spacing-extra-small);
+}
+
+/*
+   --margin-right-small
+   ========================================================================== */
+
+/**
+* Applies a small amount of spacing on the right of an element.
+*
+* Example:
+*
+* <div class="mvcc--margin-right-medium">
+*
+* </div>
+*/
+.mvcc--margin-right-small {
+	margin-right: var(--mvcc-spacing-small);
 }
 
 /*

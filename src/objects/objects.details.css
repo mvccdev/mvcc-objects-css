@@ -8,10 +8,6 @@
  * Usage:
  *
  * <details class="mvcc-detail">
- *     <summary="mvcc-details__summary"
- *     </summary>
- *     <div class="mvcc-details__body">
- *     </div>
  * </details>
  */
 
@@ -19,9 +15,62 @@
 	display: block;
 	margin-bottom: var(--mvcc-spacing-medium);
 }
+/*
+  __summary
+  ========================================================================== */
 
+/**
+* Defines the summary of the details object.
+ *
+ * Usage:
+ *
+ * <details class="mvcc-detail">
+ *     <summary="mvcc-details__summary"
+ *     </summary>
+ * </details>
+*/
+.mvcc-details__summary {
+	color: var(--mvcc-details-summary-color);
+	background-color: var(--mvcc-details-summary-background-color);
+}
+/*
+  __body
+  ========================================================================== */
+
+/**
+* Defines the body of the details object.
+ *
+ * Usage:
+ *
+ * <details class="mvcc-detail">
+ *     <summary="mvcc-details__summary"
+ *     </summary>
+ *     <div class="mvcc-details__body">
+ *     </div> 
+ * </details>
+*/
 .mvcc-details__summary,
 .mvcc-details__body {
 	padding: var(--mvcc-spacing-small);
 }
- 
+
+ /*
+   --border
+   ========================================================================== */
+
+/**
+* Applies a border around the details body.
+*
+* Usage:
+*
+ * <details class="mvcc-detail mvcc-details--border">
+ *     <summary="mvcc-details__summary"
+ *     </summary>
+ *     <div class="mvcc-details__body">
+ *     </div>
+ * </details>
+*/
+
+.mvcc-details--border > .mvcc-details__body {
+	border: 1px solid #ddd;
+ }
