@@ -20,7 +20,7 @@
 }
 
 /*
-   --gutter-extra-small
+   --spacing-extra-small
    ========================================================================== */
 
 /**
@@ -36,7 +36,7 @@
 }
 
 /*
-   --gutter-medium
+   --spacing-small
    ========================================================================== */
 
 /**
@@ -84,7 +84,7 @@
 }
 
 /*
-   --gutter-extra-large
+   --spacing-extra-large
    ========================================================================== */
 
 /**
@@ -98,3 +98,20 @@
 .mvcc-box--spacing-extra-large {
 	padding: var(--mvcc-spacing-extra-large);
 }
+
+/*
+   --border
+   ========================================================================== */
+
+/**
+* Applies a border around the box.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-box mvcc-box--border">
+ * </div>
+ */
+*/
+.mvcc-card--border {
+	border: 1px solid #ddd;
+ }

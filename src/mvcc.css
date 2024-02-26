@@ -42,6 +42,7 @@
 @import './objects/objects.media.css';
 @import './objects/objects.box.css';
 @import './objects/objects.table.css';
+@import './objects/objects.table-container.css';
 @import './objects/objects.link.css';
 @import './objects/objects.link-list.css';
 @import './objects/objects.list.css';
@@ -50,7 +51,6 @@
 @import './objects/objects.button.css';
 @import './objects/objects.label.css';
 @import './objects/objects.dialog.css';
-@import './objects/objects.bar.css';
 @import './objects/objects.featured.css';
 @import './objects/objects.effect.css';
 

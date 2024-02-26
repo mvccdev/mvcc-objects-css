@@ -44,7 +44,7 @@
 }
 
 .mvcc-list--hover > .mvcc-list__item:hover {
-	background-color: red;
+	background-color: var(--mvcc-list-hover-background-color);
 }
 
 /*

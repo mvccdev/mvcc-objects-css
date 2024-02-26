@@ -52,24 +52,24 @@
    * </div>
    */
    .mvcc-featured__icon {
-      height:24px;
+      height: 24px;
+	  margin-right: var(--mvcc-spacing-small);
   }
   
-  /*
-    __chevron
-    ========================================================================== */
-  
-    /**
-   * An optional element used to define the chevron image on the right.
-   *
-   * Usage:
-   *
-   * <div class="mvcc-feature">
-   *     <img src="" class="mvcc-feature__chevron">
-   * </div>
-   */
-  .custom-featured_chevron {
-      position: absolute;
-       right: var(--mvcc-spacing-small);
-  }
-  
+/*
+__chevron
+========================================================================== */
+
+/**
+* An optional element used to define the chevron image on the right.
+*
+* Usage:
+*
+* <div class="mvcc-feature">
+*     <img src="" class="mvcc-feature__chevron">
+* </div>
+*/
+.mvcc-featured__chevron {
+	position: absolute;
+	right: var(--mvcc-spacing-extra-small);
+}

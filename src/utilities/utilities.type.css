@@ -61,3 +61,17 @@
 .mvcc--type-card-title {
 	font-size: var(--mvcc-h4-font-size);
 }
+/*
+   --type-small
+   ========================================================================== */
+
+/**
+ * Applies the small font-size to an element.
+ *
+ * Example:
+ *
+ * <h1 class="mvcc--type-small"></div>
+ */
+ .mvcc--type-small {
+	font-size: var(--mvcc-small-font-size);
+}

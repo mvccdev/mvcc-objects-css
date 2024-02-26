@@ -77,6 +77,10 @@
 	--mvcc-table-border-color: #ccc;
 	--mvcc-table-zebra-background-color: #eee;
 
+	/* table-container */
+
+	--mvcc-table-container-border-color: #ddd;
+
 	/* form */
 
 	--mvcc-form-input-width: 300px;
@@ -120,14 +124,7 @@
 	--mvcc-button-pill-background-color: #005D95;
 	--mvcc-button-pill-active-color: #fff;
 	--mvcc-button-pill-active-background-color: #000;
-	
-	/* bar */
-
-	--mvcc-bar-border-color:#ccc;
-	--mvcc-bar-border-width: 1px;
-	--mvcc-bar-background-color: #fff;
-	--mvcc-bar-value-background-color: #334155; 
-
+	 
 	/* featured */
 
 	--mvcc-featured-border-color:#ccc;
@@ -143,6 +140,9 @@
 
 	--mvcc-label-height: 1.5rem;
 
+	/* list*/
+
+	--mvcc-list-hover-background-color: #ddd;
 /*
    utilities
    ========================================================================== */

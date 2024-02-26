@@ -1,0 +1,29 @@
+/* ==========================================================================
+   #objects.feature
+   ========================================================================== */
+
+/**
+ * The table container object allows tables to be scrolled on small screens.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-table-container">
+ *     <table>
+ *     </table>     
+ * </div>
+ */
+ .mvcc-table-container {
+	overflow: auto;
+	border-width: 1px; 
+	border-style: solid;
+	border-color: var(--mvcc-table-container-border-color);
+	box-shadow: 0 2px 4px 0 #eee;
+}
+
+ @media (min-width: 48em) {
+	.mvcc-table-container {
+		overflow: auto;
+		border: 0;
+		box-shadow: none;
+	}
+}

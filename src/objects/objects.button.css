@@ -34,7 +34,7 @@
 .mvcc-button:focus {
 	outline:0;
 }
-
+ 
 /*
    --type-raised
    ========================================================================== */
@@ -111,3 +111,22 @@
 	color: var(--mvcc-button-pill-active-color);
 	background-color: var(--mvcc-button-pill-active-background-color);
 }
+ 
+
+/*
+  -spacing-medium
+  ========================================================================== */
+
+/**
+* Applies a medium amount of spacing inside the box.
+*
+* Usage:
+*
+* <div class="mvcc-box mvcc-box--spacing-large">
+* </div>
+*/
+.mvcc-button--spacing-medium {
+   padding-top: var(--mvcc-spacing-medium);
+   padding-bottom: var(--mvcc-spacing-medium);
+}
+ 
