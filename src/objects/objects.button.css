@@ -82,6 +82,26 @@
 	background-color: var(--mvcc-button-outline-active-background-color);
 }
 
+
+/*
+   --type-toolbar
+   ========================================================================== */
+
+/**
+ * Applies an toolbar style on the button.
+ *
+ * Usage:
+ *
+ * <button class="mvcc-button mvcc-button--type-outline"></button>
+ */
+
+ .mvcc-button--type-toolbar:active  {
+	border-width: var(--mvcc-button-outline-toolbar-width);
+	border-color: var(--mvcc-button-outline-toolbar-color);
+	border-radius: var(--mvcc-button-outline-toolbar-radius);
+}
+ 
+
 /*
    --type-pill
    ========================================================================== */

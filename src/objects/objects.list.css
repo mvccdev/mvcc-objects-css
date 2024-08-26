@@ -38,15 +38,18 @@
 
 .mvcc-list--hover > .mvcc-list__item {
 	position: relative;
-    cursor: pointer;
     margin-bottom: 0;
-	padding: var(--mvcc-spacing-extra-small);
+	padding-top: var(--mvcc-spacing-small);
+	padding-bottom: var(--mvcc-spacing-small);	
+	padding-left: var(--mvcc-spacing-extra-small);
+	padding-right: var(--mvcc-spacing-extra-small);	
+    cursor: pointer;
 }
 
 .mvcc-list--hover > .mvcc-list__item:hover {
+	color: var(--mvcc-list-hover-color);
 	background-color: var(--mvcc-list-hover-background-color);
 }
-
 /*
    __item
    ========================================================================== */
@@ -81,7 +84,7 @@
  *
  * <div class="mvcc-list">
  *     <div class="mvcc-list__item">
- *         <ing class="mvcc-list__text">
+ *         <img class="mvcc-list__text">
  *     </div>
  * </div>
  */
@@ -112,6 +115,30 @@
 }
 
 /*
+   __link
+   ========================================================================== */
+
+/**
+ * An optional element that defines a list item's link.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-list">
+ *     <div class="mvcc-list__item">
+ *         <div class="mvcc-list__text">
+ *             Line 1
+ *             <div class="mvcc-list__info">
+ *                 Line 2
+ *             </div>
+ *         </div>
+ *     </div>
+ * </div>
+ */
+.mvcc-list__link {
+	text-decoration: underline;
+}
+
+/*
    __text
    ========================================================================== */
 
@@ -123,7 +150,9 @@
  * <div class="mvcc-list">
  *     <div class="mvcc-list__item">
  *         <div class="mvcc-list__text">
- *             Line 1
+ *             <div class="mvcc-list__link>
+ *                 Line 1
+ *             </div>
  *             <div class="mvcc-list__info">
  *                 Line 2
  *             </div>

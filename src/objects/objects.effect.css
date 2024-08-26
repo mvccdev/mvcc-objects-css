@@ -17,6 +17,23 @@
    animation-fill-mode: both;
 }
 
+/*
+   #speed-fast
+   ========================================================================== */
+
+/**
+ * Apply a faster animation speed.
+ *
+ * Usage:
+ *
+ * <span class="mvcc-effect mvcc-effect--speed-fast">
+ *
+ * </span>
+ */
+ .mvcc-effect--speed-fast {
+	animation-duration: .5s;
+}
+
  /*
    #fade-in
    ========================================================================== */

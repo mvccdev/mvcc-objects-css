@@ -29,6 +29,7 @@
 @import './elements/elements.fieldset.css';
 @import './elements/elements.legend.css';
 @import './elements/elements.summary.css';
+@import './elements/elements.dialog.css';
 
 /* ==========================================================================
    #objects
