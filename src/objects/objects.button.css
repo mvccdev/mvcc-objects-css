@@ -88,19 +88,27 @@
    ========================================================================== */
 
 /**
- * Applies an toolbar style on the button.
+ * Applies an toolbar style on the button. Do not include space before text!
  *
  * Usage:
  *
- * <button class="mvcc-button mvcc-button--type-outline"></button>
+ * <button class="mvcc-button mvcc-button--type-outline">
+ *     <svg></svg>Button
+ * </button>
  */
 
- .mvcc-button--type-toolbar:active  {
-	border-width: var(--mvcc-button-outline-toolbar-width);
-	border-color: var(--mvcc-button-outline-toolbar-color);
-	border-radius: var(--mvcc-button-outline-toolbar-radius);
+.mvcc-button--type-toolbar  {
+	padding-top: .75rem;
+	padding-bottom: .75rem;
 }
- 
+
+.mvcc-button--type-toolbar:hover {
+	background-color: #eee;
+}
+
+.mvcc-button--type-toolbar svg {
+	margin-right: .375rem;
+}
 
 /*
    --type-pill
