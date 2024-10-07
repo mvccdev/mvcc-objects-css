@@ -106,9 +106,10 @@
 	background-color: #eee;
 }
 
-.mvcc-button--type-toolbar svg {
-	margin-right: .375rem;
+.mvcc-button--type-toolbar:active {
+	background-color: #ddd;
 }
+ 
 
 /*
    --type-pill
